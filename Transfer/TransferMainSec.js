@@ -4,12 +4,18 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
 import TransferIconSec from './TansferIconSection';
 
 
+
+
+
 const bgimg= {uri:'https://p0.pikist.com/photos/478/426/singapore-city-architecture-building-the-skyscraper-municipal-asia-gorgeous-travel.jpg'}
 
 const TransferMainSec = () =>{
-
-    const [isEnabled, setIsEnabled] = useState(false);
+   
+    const [isEnabled, setIsEnabled] = useState("No");
   const toggleSwitch = () => setIsEnabled(previousState => !previousState);
+
+
+
 
 
     return(
@@ -20,10 +26,11 @@ const TransferMainSec = () =>{
                 source = {bgimg} 
                 style = {{ resizeMode:"cover"  , height:500}}>
 
-                    {/* Buttons  */}
+                    
                     <View style ={{ marginTop:20, marginLeft:20,marginRight:20,justifyContent:"space-around" , flexDirection:"row", backgroundColor: "#000000c0"}} >
                         <View>
                         <Button
+                        onPress={() => alert ('This is a button!')}
                         color="#"
                         title = "Point-to-Point"
                         leftIcon={
@@ -111,14 +118,10 @@ const TransferMainSec = () =>{
                    </View>
 
                    <View>
-                       <Text style = {{color : 'white'}}>Round Trip?</Text>
+                       <Text style = {{color : 'white'}}>Round Trip? </Text>
                    <View style = {{marginLeft:'35%' , marginTop:8}}>
-                   <Switch
-                        trackColor={{ false: "grey", true: "#f15b2F" }}
-                        thumbColor={isEnabled ? "#f15b2F" : "#f15b2F"}
-                        onValueChange={toggleSwitch}
-                        value={isEnabled} />
                    </View>
+
                    </View>
 
 

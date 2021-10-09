@@ -38,7 +38,7 @@ const TransferReviewSec = () => {
             </View>
            
 
-           {/* 2nd person */}
+           
             <View style = {{marginTop:20, width:'80%' }}>
             <View style= {{marginRight:150 , flexDirection:"row"}}>
                 <View >
@@ -60,7 +60,7 @@ const TransferReviewSec = () => {
                 </Text>
             </View>
 
-          {/* 3rd person */}
+         
             <View style = {{marginTop:20, width:'80%' }}>
            <View>
             <View style= {{marginRight:150,flexDirection:'row'}}>
@@ -88,4 +88,4 @@ const TransferReviewSec = () => {
     )
 }
 
-export default TransferReviewSec;
+export default TransferReviewSec;  

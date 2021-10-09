@@ -1,0 +1,26 @@
+export default [
+    {
+        id:'1',
+        title:'Up to 1000 off',
+        discription:'Upto 2% Discount For Premium Economy/Business Class Booking only. ',
+        TC : 'T&C Applicable',
+        Promocode:'PROMO CODE "TRAVOMINT"', 
+        image: require('https://www.travomint.com/resources/images/offer_1.svg')
+    },
+    {
+        id:'2',
+        title:'Up to 2000 off(Valid for today)',
+        discription:'Upto 2000 Discount On Domestic Flight',
+        TC : 'T&C Applicable',
+        Promocode:'PROMO CODE "TRAVOMINT"',         
+        image: require('https://www.travomint.com/resources/images/offer_2.svg')
+    },
+    {
+        id:'3',
+        title:'Flat 100 off On Domestic flight',
+        discription:'Upto 2% Discount For Premium Economy/Business Class Booking only.',
+        TC : 'T&C Applicable',
+        Promocode:'PROMO CODE "TRAVOMINT"', 
+        image: require('https://www.travomint.com/resources/images/offer_3.svg')
+    },
+]
